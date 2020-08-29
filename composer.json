@@ -1,0 +1,28 @@
+{
+    "name": "arueckauer/strict-type-declaration-cs-issue",
+    "type": "project",
+    "description": "Issue where laminas-coding-standard is not sure about where to place strict type declaration",
+    "homepage": "https://github.com/arueckauer/strict-type-declaration-cs-issue",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Andi Rückauer",
+            "email": "rueckauer@intelliact.ch",
+            "homepage": "https://arueckauer.github.io/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "laminas/laminas-coding-standard": "^2.0"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "scripts": {
+        "cs-check": "phpcs",
+        "cs-fix": "phpcbf"
+    }
+}
